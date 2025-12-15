@@ -14,6 +14,7 @@ This project analyzes over **2.2 million loan applications** (Lending Club, 2007
 *   **Precision (Non-Default):** 0.94 — The model is highly reliable when approving loans.
 *   **Risk Identification:** Successfully flagged **70%** of actual defaults in the holdout test set.
 *   **Business Insight:** Identified that borrowers with a **Payment-to-Income (PTI) ratio > 15%** carry significantly higher risk, regardless of income level.
+  ![ROC]([images/risk_drivers_analysis.png](https://github.com/RachaelKilonzo/Credit-Risk-Prediction-Underwriting-Framework/blob/main/roc.png))
 
 ---
 
@@ -29,7 +30,7 @@ To prevent data leakage and improve predictive power, I moved beyond raw bureau 
 
 ---
 
-## 📈 Visual Analysis
+## Visual Analysis
 ### 1. Risk Drivers
 *Exploratory analysis revealing the sharp divergence in PTI and Utilization between compliant borrowers and defaulters.*
 
@@ -39,11 +40,11 @@ To prevent data leakage and improve predictive power, I moved beyond raw bureau 
 ### 2. Feature Importance
 *The top factors driving the XGBoost decision logic.*
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](https://github.com/RachaelKilonzo/Credit-Risk-Prediction-Underwriting-Framework/blob/main/risk%20factor.png)
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 *   **Algorithm:** XGBoost Classifier (Gradient Boosting).
 *   **Handling Imbalance:** The dataset had an 11.9% default rate. I used `scale_pos_weight` and stratified splitting to manage class imbalance.
 *   **Preprocessing Strategy:**
@@ -52,13 +53,3 @@ To prevent data leakage and improve predictive power, I moved beyond raw bureau 
 
 ---
 
-## 💻 Installation & Usage
-
-### Prerequisites
-*   Python 3.8+
-*   Jupyter Notebook
-
-### Setup
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/credit-risk-engine.git

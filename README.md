@@ -14,7 +14,7 @@ This project analyzes over **2.2 million loan applications** (Lending Club, 2007
 *   **Precision (Non-Default):** 0.94 — The model is highly reliable when approving loans.
 *   **Risk Identification:** Successfully flagged **70%** of actual defaults in the holdout test set.
 *   **Business Insight:** Identified that borrowers with a **Payment-to-Income (PTI) ratio > 15%** carry significantly higher risk, regardless of income level.
-  ![ROC]([images/risk_drivers_analysis.png](https://github.com/RachaelKilonzo/Credit-Risk-Prediction-Underwriting-Framework/blob/main/roc.png))
+  ![ROC]([(https://github.com/RachaelKilonzo/Credit-Risk-Prediction-Underwriting-Framework/blob/main/roc.png])
 
 ---
 

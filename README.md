@@ -34,7 +34,7 @@ To prevent data leakage and improve predictive power, I moved beyond raw bureau 
 ### 1. Risk Drivers
 *Exploratory analysis revealing the sharp divergence in PTI and Utilization between compliant borrowers and defaulters.*
 
-![Risk Drivers Visualization](https://github.com/RachaelKilonzo/Credit-Risk-Prediction-Underwriting-Framework)
+![Risk Drivers Visualization](https://github.com/RachaelKilonzo/Credit-Risk-Prediction-Underwriting-Framework/blob/main/drivers.png)
 *(Note: Defaulters use 55% of available credit on average, compared to 49% for good borrowers.)*
 
 ### 2. Feature Importance
